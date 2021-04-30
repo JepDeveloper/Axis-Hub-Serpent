@@ -1,7 +1,7 @@
 if game.PlaceId == 155615604 then -- Prison Life
     game.StarterGui:SetCore("SendNotification", {
         Title = "Axis Hub";
-        Text = "Successfully loaded on prison life!";
+        Text = "Successfully loaded serpent theme!";
         Icon = "http://www.roblox.com/asset/?id=6693768785";
         Duration = 10;
     })
@@ -66,7 +66,7 @@ if game.PlaceId == 155615604 then -- Prison Life
 elseif game.PlaceId == 3956818381 then -- Ninja Legends
     game.StarterGui:SetCore("SendNotification", {
         Title = "Axis Hub";
-        Text = "Succesfully loaded on Ninja Legends!";
+        Text = "Succesfully loaded serpent theme!";
         Icon = "http://www.roblox.com/asset/?id=6693768785";
         Duration = 10;
     })
@@ -142,7 +142,7 @@ end
 if game.PlaceId == 286090429 then --arsenal
     game.StarterGui:SetCore("SendNotification", {
         Title = "Axis Hub";
-        Text = "Succesfully loaded on Arsenal!";
+        Text = "Succesfully loaded serpent theme!";
         Icon = "http://www.roblox.com/asset/?id=6693768785";
         Duration = 10;
     })
@@ -196,7 +196,7 @@ end
 if game.PlaceId == 2041312716 then
     game.StarterGui:SetCore("SendNotification", {
         Title = "Axis Hub";
-        Text = "Succesfully loaded on ragdoll engine!";
+        Text = "Succesfully loaded serpent theme!!";
         Icon = "http://www.roblox.com/asset/?id=6693768785";
         Duration = 10;
     })
@@ -222,7 +222,7 @@ end
 if game.PlaceId == 5847495283 then
     game.StarterGui:SetCore("SendNotification", {
         Title = "Axis Hub";
-        Text = "Succesfully loaded Axis Hub V2!";
+        Text = "Succesfully loaded serpent theme!";
         Icon = "http://www.roblox.com/asset/?id=6693768785";
         Duration = 10;
     })
@@ -247,6 +247,12 @@ if game.PlaceId == 5847495283 then
 end
 
 if game.PlaceId == 606849621 then
+                game.StarterGui:SetCore("SendNotification", {
+                Title = "Axis Hub";
+                Text = "Successfully loaded serpent theme!";
+                Icon = "http://www.roblox.com/asset/?id=6693768785";
+                Duration = 10;
+            })
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
     local Window = Library.CreateLib("Axis Hub V2 - Jailbreak", "Serpent")
 
